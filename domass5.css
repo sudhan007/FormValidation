@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    
+}
+#one{
+    background-image: url(/img/father-656734_960_720.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 625px;
+
+}
+#two{
+    border:0px solid black;
+    background-color:rgba(255, 177, 9, 0.8) ;
+    width: 700px;
+    height: 480px;
+    margin-left: 400px;
+    position: relative;
+    top:130px;
+    border-radius: 14px 14px;
+}
+h1{
+    text-align: center;
+    padding-top: 40px;
+}
+#tab{
+    padding-top: 30px;
+    padding-left: 180px;
+    line-height: 2.5 ;
+}
+p{
+     padding-left: 180px;
+    line-height: 2.5;
+}
+
+input[id=abc]{
+    padding: 0px 16px;
+}
+input:required{
+    color: red;
+}
+input:focus{
+    background-color: greenyellow;
+}
+
+#span1{
+    visibility: hidden;
+}
+#span2{
+    visibility: hidden;
+}
+#span3{
+    visibility: hidden;
+}
+#span4{
+    visibility: hidden;
+}
+
+i:hover
+{
+    cursor: pointer;
+color: red;
+}
+

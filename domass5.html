@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation</title>
+    <link rel="stylesheet" href="../CSS/domass5.css">
+</head>
+<body>
+    
+    <div id="one">
+        <div id="two">
+            <h1>Sign-Up</h1>
+            <table id="tab">
+               
+                <form action="##" autocomplete="off">
+
+
+                <tr>
+                    <td>
+                        <label for="username">Student-Name :</label>
+                    </td>
+                    <td><input type="text" name="" id="username" pattern="[a-z A-Z]" required checked  placeholder="enter max 10 character"></td>
+                </tr>
+                <tr><td><span id="span1"></span></td></tr>
+
+                <tr>
+                    <td>
+                        <label for="email">Student-Email</label>
+                    </td>
+                    <td>
+                        <input type="email" required id="email" pattern="[a-z 0-9 @  ]">
+                    </td>
+                    <tr><td><span id="span2"></span></td></tr>
+                </tr>
+
+
+
+                <tr>
+                    <td><label for="password">New-password :</label></td>
+                    <td><input type="password" name="" id="password" required  placeholder="enter 8 digit"></td>
+                </tr>
+                <tr><td><span id="span3"></span></td></tr>
+
+                
+                <tr>
+                    <td><label for="confirmpassword">Confirm-password :</label></td>
+                    <td><input type="password" name="" id="confirmpassword" required  >
+                <i id="eye" class="fa-solid fa-eye" type="text"></i></td>
+                </tr>
+                <tr><td><span id="span4"></span></td></tr>
+
+
+                </form>
+            </table>
+            <p><input type="submit" name="" id="abc" ></p>
+        
+
+
+            <script src="https://kit.fontawesome.com/0f5ac7a600.js" crossorigin="anonymous"></script>
+    <script src="../JAVASCRIPT/domass5.js"></script>
+</body>
+</html>
